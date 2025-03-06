@@ -23,14 +23,15 @@ docker compose up --build -d
 ## Folder Structure
 ```
 php-my-framework/
-├── src/              # Application logic
-│   ├── Controllers/  # Controllers
-│   ├── Core/         # Core logic
-├── public/           # Publicly accessible files
-├── config/           # Configuration files
-│   ├── routes.php    # Route file
-├── composer.json     # Dependencies
-└── README.md         # Documentation
+├── src/                                        # Application logic
+│   ├── Controllers/                            # Controllers
+│   ├── Core/                                   # Core logic
+├── public/                                     # Publicly accessible files
+├── config/                                     # Configuration files
+│   ├── routes.php                              # Route file
+├── composer.json                               # Dependencies
+├── My PHP Framework.postman_collection.json    # Postman
+└── README.md                                   # Documentation
 ```
 
 ---
