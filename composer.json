@@ -1,0 +1,14 @@
+{
+  "name": "my-php-framework/my-php-framework",
+  "description": "This is sample php framework",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "symfony/password-hasher": "^7.2"
+  }
+}
